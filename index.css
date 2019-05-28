@@ -52,3 +52,30 @@
 #footer a {
   color: white;
 }
+
+
+@media screen and (max-width:993px){
+  #place-time{
+    position: relative;
+    overflow: hidden;
+    max-height: 300px;
+  }
+  /* #place-details {
+    margin: 20px;
+  } */
+  #place-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  #place-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: opacity(30%)
+  }
+  
+}
+
